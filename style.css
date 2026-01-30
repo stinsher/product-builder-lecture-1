@@ -116,11 +116,11 @@ body {
 }
 
 .button.netflix {
-    background-color: #E50914; /* Netflix Red */
+    background-color: black;
 }
 
 .button.netflix:hover {
-    background-color: #b20710;
+    background-color: #333; /* Darker grey for hover */
 }
 
 /* Responsive styles for mobile devices */
