@@ -4,6 +4,7 @@
 
 - Implement dark mode and light mode functionality.
 - Deploy the changes to the production environment.
+- Change the background image to a picture of mountains and the sea.
 
 ## Changes Made
 
@@ -12,10 +13,11 @@
     - Implemented CSS variables for colors to support themes.
     - Added styles for the new theme switcher button.
     - Defined a dark theme with a dark background and light text.
+    - Added a background image of mountains and the sea to the `body` element.
 - **`main.js`**:
     - Added a click event listener to the theme switcher button.
     - The script toggles a `data-theme` attribute on the `<html>` element to switch between `light` and `dark` themes.
 
 ## Deployment
 
-- The changes were committed and pushed to the `main` branch.
+- All changes were committed and pushed to the `main` branch.
