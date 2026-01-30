@@ -1,1 +1,63 @@
-/* Add styles here */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d4edda; /* Pastel Green */
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.button {
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+}
+
+.button.daum {
+    background-color: #155C9E; /* Daum Blue */
+}
+
+.button.daum:hover {
+    background-color: #124C82;
+}
+
+.button.youtube {
+    background-color: #FF0000; /* YouTube Red */
+}
+
+.button.youtube:hover {
+    background-color: #cc0000;
+}
+
+.button.netflix {
+    background-color: #E50914; /* Netflix Red */
+}
+
+.button.netflix:hover {
+    background-color: #b20710;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 600px) {
+    .button-container {
+        flex-direction: column;
+        width: 80%;
+    }
+}
