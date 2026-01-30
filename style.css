@@ -1,15 +1,27 @@
 :root {
-    --background-color: #d4edda; /* Pastel Green */
+    --background-color: rgba(212, 237, 218, 0.8); /* Pastel Green with some transparency */
     --title-color: red;
     --line-color: #333;
     --button-text-color: white;
 }
 
 [data-theme='dark'] {
-    --background-color: #121212;
+    --background-color: rgba(18, 18, 18, 0.8); /* Dark with some transparency */
     --title-color: #ff8a80;
     --line-color: #eee;
     --button-text-color: #121212;
+}
+
+.background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1502657877623-f66bf489d782?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
 }
 
 body {
@@ -22,9 +34,6 @@ body {
     margin: 0;
     font-family: sans-serif;
     transition: background-color 0.3s, color 0.3s;
-    background-image: url('https://images.unsplash.com/photo-1502657877623-f66bf489d782?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 .theme-switcher-container {
