@@ -1,11 +1,24 @@
 body {
     display: flex;
+    flex-direction: column; /* Arrange items vertically */
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #d4edda; /* Pastel Green */
     margin: 0;
     font-family: sans-serif;
+}
+
+.title-container {
+    text-align: center;
+    border-bottom: 2px solid #333; /* Thick dark line */
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.title {
+    color: red;
+    margin: 0;
 }
 
 .button-container {
@@ -31,11 +44,11 @@ body {
 }
 
 .button.daum {
-    background-color: #155C9E; /* Daum Blue */
+    background-color: #FFD700; /* Gold (Yellow) */
 }
 
 .button.daum:hover {
-    background-color: #124C82;
+    background-color: #E0B900; /* Darker Gold (Yellow) */
 }
 
 .button.youtube {

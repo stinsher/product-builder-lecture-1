@@ -1,1 +1,1 @@
-The Naver link has been successfully replaced with a Daum link in `index.html`, and the corresponding styles in `style.css` have been updated to reflect the change.
+A title '귀찮아서 만든 사이트 목록' in red with a thick line underneath has been added above the buttons.
