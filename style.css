@@ -84,18 +84,27 @@ body {
     font-weight: bold;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
+    display: flex; /* Allow content to be centered */
+    justify-content: center;
+    align-items: center;
 }
 
 .button:hover {
     transform: translateY(-2px);
 }
 
+.button .logo {
+    max-width: 100px; /* Adjust as needed */
+    height: auto;
+    display: block;
+}
+
 .button.daum {
-    background-color: #FFD700; /* Gold (Yellow) */
+    background-color: #fceb5c; /* Adjusted Daum Yellow */
 }
 
 .button.daum:hover {
-    background-color: #E0B900; /* Darker Gold (Yellow) */
+    background-color: #e3d242; /* Darker Yellow */
 }
 
 .button.youtube {
